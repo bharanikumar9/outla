@@ -1,0 +1,27 @@
+
+$white: white;
+$color_fi: #405061;
+$black_1: rgba(0,0,0,0.24);
+$black_2: rgba(0,0,0,0.19);
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: $white;
+	padding: 0.9em 0.7em 0 0.7em;
+	background-color: $color_fi;
+	line-height: 1em;
+	position: relative;
+	left: +23px;
+	top: -4px;
+	height: 2em;
+	min-width: 90px;
+	text-align: center;
+	margin-right: .8em;
+	border-radius: 25px;
+	cursor: pointer;
+}
+nav a:hover {
+
+	box-shadow: 0 12px 16px 0 $black_1,0 17px 50px 0 $black_2;
+}

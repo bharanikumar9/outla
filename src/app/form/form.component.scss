@@ -1,0 +1,35 @@
+
+$red: red;
+$navajo: navajowhite;
+$color_grey: #ccc;
+$blue: blue;
+$color_orange: rgb(241, 97, 13);
+$brown: brown;
+
+input[type=text] {
+	width: 29%;
+	padding: 6px 14px;
+	margin: 11px;
+	box-sizing: initial;
+	color: $red;
+	background-color: $navajo;
+	border: 1px solid $color_grey;
+}
+button {
+	font-size: 12px;
+	margin: 2px;
+	padding: 8px 14px;
+	color:$blue;
+}
+.left {
+	text-decoration: none;
+	display: inline-block;
+	color: $color_orange;
+	padding: 5px 24px;
+	min-width: 77px;
+}
+.rigt {
+	text-decoration: $brown;
+	display: inline-block;
+	padding: 2px 3px;
+}
